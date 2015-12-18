@@ -1,3 +1,12 @@
 E VAMOS A LUTA PARA A VERSÃO 0.1.0
 eeee Deu certo
 VAMOS A VERSÃO 0.1.1
+code
+$ git add .
+$ git commit -m "so mudar de versao mesmo"
+$ git status
+$ git push origin master
+$ git tag -a v.0.1.1 -m "e vamos a luta II nas tags 011"
+$ git tag -l
+$ git tag -d //remove
+$ git push origin master --tags
